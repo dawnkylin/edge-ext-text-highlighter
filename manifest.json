@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "网页文本划线高亮",
+    "description": "Highlight text with color and manage highlights.",
+    "version": "1.0",
+    "permissions": ["storage", "activeTab", "scripting"],
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content/content.js"],
+            "css": ["content/highlight.css"]
+        }
+    ],
+    "action": {
+        "default_popup": "popup/popup.html"
+    }
+}

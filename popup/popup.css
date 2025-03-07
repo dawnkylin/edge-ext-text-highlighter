@@ -1,0 +1,21 @@
+.highlight-popup,
+.delete-popup {
+    position: absolute;
+    z-index: 1000;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.highlight-popup button,
+.delete-popup button {
+    margin: 2px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.highlighted {
+    background-color: yellow;
+}
