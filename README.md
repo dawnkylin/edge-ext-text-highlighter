@@ -10,7 +10,7 @@
 ## 项目结构
 
 ```
-c:\Users\lc\Documents\前端项目代码\Egde高亮插件
+Egde高亮插件
 ├── content/
 │   ├── content.js        // 核心逻辑代码
 │   └── highlight.css     // 高亮样式
